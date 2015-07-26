@@ -16,8 +16,8 @@
 ##         Formally, the function returns a list with the above 
 ##         functions, i.e., methods of the object. A matrix object
 ##         can be passed to the function when the CacheMatrix object
-##         is created.  Otherwise, an empty matrix object is created and
-##         cached. 
+##         is created.  Otherwise, a matrix object (1X1, NA) is created 
+##         and cached. 
 ##    
 ##    cacheSolve(x, ...)
 ##        Takes a CacheMatrix object as an argument. The "..." is used

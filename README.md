@@ -9,7 +9,7 @@ Routines for creating a special numeric matrix, calculating its inverse, and cac
    - setInv(y): set (cache) the inverse of the matrix to y 
    - getInv() : return the inverse of the cahced matrix 
 
-   The function returns a list with the above functions, i.e., methods of the object. A matrix object can be passed to the function when the CacheMatrix object is created.  Otherwise, an empty matrix object is created and cached. 
+   The function returns a list with the above functions, i.e., methods of the object. A matrix object can be passed to the function when the CacheMatrix object is created.  Otherwise, an matrix object is created (1X1, NA) and cached. 
 
  - cacheSolve(x, ...)
    - Takes a CacheMatrix object as an argument. The "..." is used to pass arguments to the solve function for matrix inversion.
