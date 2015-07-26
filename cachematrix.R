@@ -38,7 +38,7 @@
 
 
 makeCacheMatrix <- function(x = matrix()) {
-    ## Takes a matrix object.  If none is supplied, create an empty one. 
+    ## Takes a matrix object.  If none is supplied, create a one (1X1, NA). 
     ##
     ## initialize inverse inv to NULL
     inv <- NULL
