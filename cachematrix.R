@@ -26,10 +26,10 @@
 ##        This function returns the inverse of a matrix stored in
 ##        a CacheMatrix object, which is a matrix-like object created 
 ##        using makeCacheMatrix. The routine first determines whether 
-##        the inverse of the matrix that is stored in CacheMatrix object  
-##        exists. If it does exist, the function simply returns the
-##        inverse.  If the inverse does not yet exist, the inverse is  
-##        calculated, cached, and the inverse is returned.
+##        the inverse of the matrix that is stored in the CacheMatrix  
+##        object exists. If it does exist, the function simply returns 
+##        the inverse.  If the inverse does not yet exist, the inverse   
+##        is calculated, cached, and the inverse is returned.
 ##
 ##        NOTE: cacheSolve assumes that the matrix is invertible and is 
 ##              square (through use of "solve").
